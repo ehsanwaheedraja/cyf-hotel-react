@@ -1,13 +1,25 @@
 import React from "react";
 
 import Bookings from "./Bookings";
+
 import "./App.css";
+import Heading from "./Components/Heading.js";
+import TouristInfoCards from "./Components/TouristInfoCards.js";
+import Footer from "./Components/Footer.js";
 
 const App = () => {
+  const footerData = [
+    "123 Fake Street, London, E1 4UD",
+    "hello@fakehotel.com",
+    "0123 456789"
+  ];
   return (
     <div className="App">
-      <header className="App-header">CYF Hotel</header>
+      <Heading />
+      <TouristInfoCards />
+
       <Bookings />
+      <Footer footerData={footerData} />
     </div>
   );
 };

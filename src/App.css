@@ -6,6 +6,13 @@
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
+.app-heading {
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-end;
+  background-color: #222;
+  height: 200px;
+}
 
 .App-header {
   background-color: #222;
@@ -54,4 +61,16 @@ tr {
 
 .card {
   width: 18rem;
+  display: inline-flex;
+}
+
+.cardInfo {
+  display: flex;
+}
+.card-img-top {
+  height: 200px;
+}
+
+il {
+  display: flex;
 }
